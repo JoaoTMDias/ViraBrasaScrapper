@@ -1,2 +1,0 @@
-# ViraBrasaScrapper
-Created with CodeSandbox
