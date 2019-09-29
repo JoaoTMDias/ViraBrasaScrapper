@@ -1,3 +1,3 @@
-const getWebsiteContent = require("./scrapper.controller");
+const scrapper = require("./scrapper.controller");
 
-module.exports = getWebsiteContent;
+module.exports = scrapper;
