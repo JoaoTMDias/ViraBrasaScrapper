@@ -8,7 +8,7 @@ const routes = express.Router();
 
 // Routes
 routes.get("/", (req, res) => res.send("Vira Brasa Scrapper"));
-routes.get("/menu/today", async (req, res) => {
+routes.get("/today", async (req, res) => {
     const result = await getWebsiteContent();
 
     return res.send(result);
